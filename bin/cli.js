@@ -10,7 +10,7 @@ function roll(sides, dice, rolls) {
 		}
 		sums[sums.length] = total;
 	}
-	return {"sides": sides, "dice": dice, "rolls": rolls, "result": sums};
+	return JSON.stringify({"sides": sides, "dice": dice, "rolls": rolls, "result": sums});
 }
 
 export {roll};
