@@ -5,3 +5,4 @@ import minimist from "minimist";
 
 let args = minimist(process.argv.slice(2));
 
+let sides = args.sides || 6;
