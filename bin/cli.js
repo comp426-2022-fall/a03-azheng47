@@ -10,3 +10,4 @@ let dice = args.dice || 2;
 let rolls = args.rolls || 1;
 
 let output = roll(sides, dice, rolls);
+console.log(output);
