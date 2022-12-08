@@ -12,3 +12,5 @@ function roll(sides, dice, rolls) {
 	}
 	return {"sides": sides, "dice": dice, "rolls": rolls, "result": sums};
 }
+
+export {roll};
