@@ -12,5 +12,6 @@ let sides = args.sides || 6;
 let dice = args.dice || 2;
 let rolls = args.rolls || 1;
 
+// make call to our imported dice roll function
 let output = roll(sides, dice, rolls);
 console.log(output);
