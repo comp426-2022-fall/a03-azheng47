@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-      "roll-dice": "./bin/cli.js"
+    "roll-dice": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-azheng47/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a03-azheng47#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a03-azheng47#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
 }
