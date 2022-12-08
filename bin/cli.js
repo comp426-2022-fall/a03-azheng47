@@ -8,6 +8,6 @@ function roll(sides, dice, rolls) {
 			let val = Math.floor(Math.random() * sides) + 1;
 			total += val;
 		}
-		sums[sums.length] = 0;
+		sums[sums.length] = total;
 	}
 }
