@@ -6,6 +6,7 @@ function roll(sides, dice, rolls) {
 		let total = 0;
 		for (let j = 0; j < dice; j++) {
 			let val = Math.floor(Math.random() * this.sides) + 1;
+			total += val;
 		}
 	}
 }
